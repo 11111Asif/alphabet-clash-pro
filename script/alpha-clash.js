@@ -11,7 +11,7 @@ function handleKeyboardKeyUpEvent(event){
     const playerPressed = event.key;
     console.log('player pressed',playerPressed)
 
-    if(playerPressed === Escape){
+    if(playerPressed === 'Escape'){
         gameOver();
     }
 

@@ -31,6 +31,12 @@ function removeBackgroundColorById (elementId){
     element.classList.remove('bg-orange-400');
 }
 
+function getElementTextById(elementId){
+    const element = document.getElementById(elementId)
+    const text = element.innerText;
+    return text;
+}
+
 
 function getARandomAlphabet(){
     const alphabetString = 'abcdefghijklmnopqrstuvwxyz';
